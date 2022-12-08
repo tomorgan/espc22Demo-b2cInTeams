@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ESPN22 Demo</title>
+</head>
+<body>
+    <h2>ESPN22 Demo</h2>
+     
+    <p>Call state <span style="font-weight: bold" id="call-state">-</span></p>
+	<input id="destination-group-input" type="text" placeholder="Microsoft Teams meeting join URL (https://teams.microsoft.com/l/meetup-join/....)"
+        style="margin-bottom:1em; width: 600px;" />
+
+    <div>
+        <button id="connect-button" type="button" disabled="false">
+            Connect
+        </button>
+        <button id="disconnect-button" type="button" disabled="true">
+            Disconnect
+        </button>		
+    
+	<button id="video-button" type="button" >
+            Show Remote Video
+        </button>
+	
+	</div>
+	
+	<h2>Participant List</h2>
+	<ul id="participants"></ul>
+	<div id="selfVideo" style="width:20%; height:20%;"></div>
+	<div id="remotevideo" style="width: 40%;height: 30vw;"></div>
+	
+	
+	
+    <script src="./bundle.js"></script>
+</body>
+
+</html>
